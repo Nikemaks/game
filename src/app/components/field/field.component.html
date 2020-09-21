@@ -1,0 +1,14 @@
+<app-controls (newItemEvent)="startGame($event)"></app-controls>
+<div class="container">
+  <div class="fields">
+    <div
+      *ngFor="let field of amountFields;"
+      class="field"
+      [attr.data-id]="field.id"
+      (mouseenter)="mouseEnter($event)"
+      [ngClass]="{'active': field.isActive, 'isWin': field.isWin, 'gameOver': field.isLost}"
+    >
+    </div>
+  </div>
+</div>
+<app-modal (EndGameEvent)="endGame()"></app-modal>

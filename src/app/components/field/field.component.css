@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fields {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 420px;
+  margin-top: 50px;
+  background: darkblue;
+}
+
+.field.active {
+  background: darkorange;
+}
+.field.isWin {
+  background: darkgreen;
+}
+.field.gameOver {
+  background: darkred;
+}
+
+.field {
+  border: 1px solid black;
+  padding: 20px;
+}

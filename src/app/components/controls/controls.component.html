@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="controls">
+    <input class="shadow" type="text" #timeValue>
+    <button class="shadow" (click)="startGame(timeValue.value)">Начать</button>
+  </div>
+  <div class="score">
+    <table>
+      <tr>
+        <td>Игрок</td>
+        <td>Компьютер</td>
+      </tr>
+      <tr>
+        <td>{{countData.countUser}}</td>
+        <td>{{countData.countComp}}</td>
+      </tr>
+    </table>
+  </div>
+</div>

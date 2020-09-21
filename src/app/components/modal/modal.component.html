@@ -1,0 +1,10 @@
+<div class="modal" *ngIf="isShow">
+  <div class="overlay"></div>
+  <div class="modal-content">
+    <h1 class="title">Конец Игры</h1>
+    <p>Игра закончилась со счетом: Игрок: {{countUser}}, Компьютер: {{countComp}} </p>
+    <button class="shadow" (click)="closeModal()">Закрыть</button>
+  </div>
+</div>
+
+
