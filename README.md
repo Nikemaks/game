@@ -28,4 +28,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Demo 
 
-You can see thr result: https://game-on-angular.web.app/
+You can see the result: https://game-on-angular.web.app/
